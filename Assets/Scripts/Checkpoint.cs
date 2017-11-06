@@ -40,7 +40,7 @@ public class Checkpoint : MonoBehaviour
     private void DeactivateCheckpoint()
     {
         isActive = false;
-        transform.localScale = transform.localScale * deactivatedScale;
+        transform.localScale = Vector3.one * deactivatedScale;
         spriteRenderer.color = deactivatedColor;
     }
 
@@ -54,7 +54,7 @@ public class Checkpoint : MonoBehaviour
 
         isActive = true;
         currentlyActiveCheckpoint = this;
-        transform.localScale = transform.localScale * activatedScale;
+        transform.localScale = Vector3.one * activatedScale;
         spriteRenderer.color = activatedColor;
     }
 

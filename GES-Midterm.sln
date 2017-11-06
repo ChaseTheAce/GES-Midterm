@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GES-Midterm", "GES-Midterm.csproj", "{BD4C3A7D-C118-A5FD-90C4-3592135B6031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GES-Midterm.Editor", "GES-Midterm.Editor.csproj", "{FA92E8E2-7C88-7620-93E7-4E74BDFB033E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4C3A7D-C118-A5FD-90C4-3592135B6031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4C3A7D-C118-A5FD-90C4-3592135B6031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4C3A7D-C118-A5FD-90C4-3592135B6031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4C3A7D-C118-A5FD-90C4-3592135B6031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA92E8E2-7C88-7620-93E7-4E74BDFB033E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA92E8E2-7C88-7620-93E7-4E74BDFB033E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA92E8E2-7C88-7620-93E7-4E74BDFB033E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA92E8E2-7C88-7620-93E7-4E74BDFB033E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
