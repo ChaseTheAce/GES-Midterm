@@ -80,7 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activatedScale: 1.5
   deactivatedScale: 1
-  activatedColor: {r: 0, g: 0.10705012, b: 0.66176474, a: 1}
+  activatedColor: {r: 0.853, g: 0.63829654, b: 0, a: 1}
   deactivatedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &212514109968353914
 SpriteRenderer:

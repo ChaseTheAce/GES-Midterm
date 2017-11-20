@@ -9,8 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/title scene.unity
     guid: 90c1ecd7acdf1c441bed150cc33448f3
   - enabled: 1
+    path: Assets/Scenes/credits scene.unity
+    guid: 1ecd50c556a4a564a8b22a68577b79b6
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 2e9061429c23c5040a1477c6b811b494
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: f69327f61ab12a144a6fd82e37b6637c
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 17f77b37aaa5eee4692f2faa6ea33f11
+  - enabled: 0
     path: Assets/Scenes/demo scene.unity
     guid: 8861ca0612a4d2b4f82b78d6506fd8dc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/scene2.unity
     guid: f2893c97c611b404395751516c8fb8e0

@@ -20,5 +20,6 @@ public class PlayerRespawn : MonoBehaviour {
             transform.position = Checkpoint.currentlyActiveCheckpoint.transform.position;
         }
 
+        CameraController.isAutoScrolling = false;
     }
 }

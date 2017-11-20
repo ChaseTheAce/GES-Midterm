@@ -7,7 +7,7 @@ public class TitleScreen : MonoBehaviour {
 
 	public void StartButtonClicked()
     {
-        SceneManager.LoadScene("demo scene");
+        SceneManager.LoadScene("Level 1");
     }
 
     public void CreditsButtonClicked()

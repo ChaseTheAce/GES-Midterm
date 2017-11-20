@@ -29,9 +29,12 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody2D myRigidbody;
 
     float horizontalInput;
+    bool isFacingRight;
     private Vector2 jumpForce;
 
     private AudioSource audioSource;
+
+    Animator anim;
 
 
 
@@ -40,6 +43,7 @@ public class PlayerMovement : MonoBehaviour {
         myRigidbody = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
         jumpForce = new Vector2(0, jumpStrength);
+        anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -68,7 +72,19 @@ public class PlayerMovement : MonoBehaviour {
     {
         Move();
         Jump();
-        
+
+        if (horizontalInput > 0 && isFacingRight)
+        {
+            Flip();
+        }
+        else if (horizontalInput < 0 && !isFacingRight)
+        {
+            Flip();
+        }
+        anim.SetFloat("Speed", Mathf.Abs(horizontalInput));
+        anim.SetBool("Jump", !isOnGround);
+
+        Debug.Log(isOnGround);
     }
 
     private void UpdateIsOnGround()
@@ -108,9 +124,15 @@ public class PlayerMovement : MonoBehaviour {
     { 
         myRigidbody.velocity = new Vector2(horizontalInput * movementSpeed, myRigidbody.velocity.y);
 
-        if (true)
-        {
+        
+    }
 
-        }
+    private void Flip()
+    {
+        isFacingRight = !isFacingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+
     }
 }

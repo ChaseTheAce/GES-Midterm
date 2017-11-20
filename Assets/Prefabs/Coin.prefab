@@ -77,7 +77,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 824dd669d0baa3e41b6a59c6a98c9eb0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0efe7c76b952a1f44bd782b91dc567ba, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -159,7 +159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 800952a492015bc408660f3ddc0c1dcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinCountText: {fileID: 0}
 --- !u!212 &212610468462902234
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -189,11 +188,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1547014809
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7b4f7f5aed9816f4da9f76a158f4a279, type: 3}
-  m_Color: {r: 1, g: 1, b: 0.017241359, a: 1}
+  m_Color: {r: 1, g: 0.8508918, b: 0.017241359, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
