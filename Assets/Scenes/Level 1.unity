@@ -1790,6 +1790,16 @@ Prefab:
       propertyPath: m_Size.y
       value: 2.67
       objectReference: {fileID: 0}
+    - target: {fileID: 212853419151727698, guid: 3f49b5e75c8778544a410fc0fa26b588,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1547014809
+      objectReference: {fileID: 0}
+    - target: {fileID: 212853419151727698, guid: 3f49b5e75c8778544a410fc0fa26b588,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f49b5e75c8778544a410fc0fa26b588, type: 2}
   m_IsPrefabParent: 0

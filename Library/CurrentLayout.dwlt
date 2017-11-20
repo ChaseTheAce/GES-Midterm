@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 53
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 312
     height: 891
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 12
+  controlID: 54
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 55
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,19 +403,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Tiled2Unity/Materials
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Tiled2Unity/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Chase\Documents\GitHub\GES-Midterm
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 29}
-    m_SelectedIDs: 86260000
-    m_LastClickedID: 9862
-    m_ExpandedIDs: 0000000076260000a626000000ca9a3bffffff7f
+    m_SelectedIDs: f6260000
+    m_LastClickedID: 9974
+    m_ExpandedIDs: 00000000762600009226000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -443,7 +443,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000076260000a6260000
+    m_ExpandedIDs: 000000007626000092260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -470,22 +470,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 746c000098750000267d0000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 746c000098750000267d000026270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Level 2
+      m_OriginalName: Level 2
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9954
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -524,7 +524,7 @@ MonoBehaviour:
     y: 130
     width: 310
     height: 870
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 313.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -559,28 +559,28 @@ MonoBehaviour:
     height: 489
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 38270000
+    m_SelectedIDs: 4e270000
     m_LastClickedID: 0
-    m_ExpandedIDs: 6003e7ffa80be7ffac0ee7ffcc11e7ffd04be7ffa236e8ff304fe8ff0270e8ff407de8ff4c7de8ffd47de8ff863be9ff923be9fffa3be9ffae44e9ffca4ce9ff62aae9ff66aae9ff56abe9ffe2e3e9ff5012eaff683ceaff4c4beaff8e57eaff4869eaff3289eaff4cf6eaff2400ebff660bebff8c16ebffa838ebffe2e2ebffba5aecff3661ecff806aecff946eecffe274ecff56f6ecff5a29edff14e2edff2ae2edffd0e4edff24d6efffece5efff4c81f1ff4085f1ff02def1ff30e4f1ff4ce9f1ffd4aff3ff9c0df9ff7412faff7812fafff412faffec4dfbfffe4dfbff0a4efbff204efbffbe58fbffc258fbff3e59fbff8c60fbff9060fbff1e61fbff4831fcff5e31fcff6031fcff1656fcff2674fcffd8fbffffdcfbffff1afcffff00000000e22700002828000070530000a686000086d40000e4d4000092d90000202b0100782e0100a02e0100c62e0100343001004e3001007c510100f8560100185701003e570100
+    m_ExpandedIDs: 0849fefff049feff9850feff8257feffe865feffd273feffda77feff989afeffdc9dfeff22d1feffc0d4feff70edfeffa2fdfeffdc6bffff5cb7ffffe6dcffffbceaffffccf4ffff1afcffff00000000fe2b0000564b0000224c0000944c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Credits
-      m_OriginalName: Credits
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 86422
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Level 1
+  - Level 3
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -616,9 +616,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1171525, y: 1.8292333, z: 0}
+    m_Target: {x: -8.040923, y: -4.0206676, z: -11.2421875}
     speed: 2
-    m_Value: {x: 1.1171525, y: 1.8292333, z: 0}
+    m_Value: {x: -8.040923, y: -4.0206676, z: -11.2421875}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -645,9 +645,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 162.79303
+    m_Target: 5.35344
     speed: 2
-    m_Value: 162.79303
+    m_Value: 5.35344
   m_Ortho:
     m_Target: 1
     speed: 2
